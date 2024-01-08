@@ -1,3 +1,11 @@
+//**config.js file **/
+// const config = {
+//     apiKey : "your api key"
+// }
+
+// export default config;
+
+
 import config from './config.js';
 const  btnEl = document.getElementById("btn");
 const jokeEl = document.getElementById("joke");
