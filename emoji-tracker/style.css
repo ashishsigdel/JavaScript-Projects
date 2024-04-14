@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.face {
+  width: 80%;
+  max-width: 450px;
+  aspect-ratio: 1/1;
+  background-color: rgb(255, 213, 0);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  outline: 13px solid rgb(255, 166, 0);
+  border: 13px solid rgba(255, 187, 8, 0.926);
+  box-shadow: 1px 1px 1rem black;
+  position: absolute;
+}
+
+.eyes {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftEye,
+.rightEye {
+  width: 45%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 1px 1px 1rem gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.leftPupil,
+.rightPupil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.mouth {
+  width: 130px;
+  height: 30px;
+  border-radius: 100px;
+  background: radial-gradient(rgb(174, 125, 33), rgb(121, 81, 5));
+  margin-bottom: 80px;
+  border: 2px solid rgb(244, 205, 113);
+  border-style: inset;
+}
